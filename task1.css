@@ -1,0 +1,16 @@
+#Red{
+	width: 10em;
+	height: 10em;
+	background-color: red;
+	border: 5px solid black;
+	margin: 10px;
+	color: white;
+}
+#Green{
+	width: 10em;
+	height: 10em;
+	background-color: green;
+	border: 5px solid black;
+	margin: 10px; 
+	color: white;
+}

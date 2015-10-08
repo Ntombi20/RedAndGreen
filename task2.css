@@ -1,0 +1,19 @@
+.grey{
+	background: gray;
+	width: 10em;
+	height: 10em;
+	margin: 10px;
+}
+
+.red {
+	background: red;
+	width: 10em;
+	height: 10em;
+	margin: 10px;
+}
+.green {
+	background: green;
+	width: 10em;
+	height: 10em;
+	margin: 10px;
+}

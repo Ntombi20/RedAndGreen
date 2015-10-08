@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 2</title>
+  <link rel="stylesheet" type="text/css" href="task2.css">
+
+</head>
+<body>
+
+<div id="redBlock" class="grey">GO</div>
+<button id="redButton">Make Red</button>
+
+<div id="greenBlock" class="grey">STOP</div>
+<button id="greenButton">Make Green</button>
+
+<script type="text/javascript">
+	//document.addEventListener('click', changeColor(), false);
+// clicking on redButton
+
+		// find the redBlock
+		// change the class for the block to red
+
+	var redButton = document.getElementById('redButton');
+	redButton.addEventListener('click', function () {
+     var redBlock = document.getElementById('redBlock');
+     redBlock.className = "red";
+	});
+
+// clicking on greenButton
+
+	var greenButton = document.getElementById('greenButton');
+    greenButton.addEventListener('click', function () {
+    	var greenBlock = document.getElementById('greenBlock');
+     greenBlock.className = "green";
+    	
+    });
+	
+
+	
+
+
+</script>
+</body>
+</html>
