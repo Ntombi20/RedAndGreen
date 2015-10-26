@@ -1,18 +1,19 @@
-.grey {
-	width: 10em;
-	height: 10em;
-	background: grey;
-	margin: 10px;
-}
-.red {
+.failing {
 	width: 10em;
 	height: 10em;
 	background: red;
 	margin: 10px;
 }
-.green {
+.passing {
 	width: 10em;
 	height: 10em;
 	background: green;
+	margin: 10px;
+
+}
+.grey {
+	width: 10em;
+	height: 10em;
+	background: grey;
 	margin: 10px;
 }
