@@ -7,7 +7,8 @@ var setTestStatus = function(elementId, buttonId, className){
     elem.className = className;
 
     //change the button text
+   var changer = document.getElementById('buttonId');
 
+ 
 };
-
 
