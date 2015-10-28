@@ -6,9 +6,14 @@ var setTestStatus = function(elementId, buttonId, className){
     //change the class... => passing/failing
     elem.className = className;
 
-    //change the button text
-   var changer = document.getElementById('buttonId');
+    var button =document.getElementById(buttonId);
 
- 
+    if (className === "failing") {
+    	button.innerHTML = "Make passing";
+    }
+   else {
+    button.innerHTML = "Make failing";
+}
+  
 };
 
